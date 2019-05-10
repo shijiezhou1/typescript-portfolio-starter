@@ -1,17 +1,13 @@
-import 'bootstrap'
-import 'jquery';
+// import 'bootstrap'
+// import { MyLibrary, Car } from './MyLibrary';
+// import $ = require("jquery");
 
-interface JQuery {
-    parallax: any;
-}
+// const here = $('.holyshit').text();
+// console.log('jquery work', here)
 
-const here = $('.holyshit').text();
-console.log('jquery work', here)
+// const myLibrary = new MyLibrary();
+// const result = myLibrary.executeDependency();
+// console.log(`A random number ${result}`);
 
-import { MyLibrary, Car } from './MyLibrary';
-const myLibrary = new MyLibrary();
-const result = myLibrary.executeDependency();
-console.log(`A random number ${result}`);
-
-const myCar = new Car();
-myCar.wheel();
+// const myCar = new Car();
+// myCar.wheel();
